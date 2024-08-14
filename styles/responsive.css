@@ -1,0 +1,26 @@
+@media screen and (max-width: 576px) {
+  .hamburger-manu {
+    display: block;
+    margin-right: 30px;
+  }
+  .manu {
+    display: none;
+  }
+  .navbar {
+    margin-left: 30px;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .btn-3 {
+    left: 200px;
+    bottom: 100px;
+  }
+  .workout-img{
+    flex-direction: column;
+  }
+  .run-esily-wraper {
+    flex-direction: column;
+  }
+  
+}

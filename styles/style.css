@@ -3,28 +3,27 @@
 
 body {
   font-family: "Inter", sans-serif;
-  width: 100%;
-  margin: 0 auto;
 }
 /* shared style is here */
+
 .primary-color {
   color: orangered;
 }
 .cursive-font {
   font-family: "Dancing Script", cursive;
 }
-.display{
-  display: none;
-}
+
 .head-section {
-  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.597), rgb(0, 0, 0));
-  height: 700px;
+  background: linear-gradient(
+    rgb(0, 0, 0),
+    rgba(10, 3, 3, 0.776),
+    rgb(0, 0, 0)
+  );
 }
 .navbar {
   max-width: 1200px;
-  margin: 0 30px;
-  display: flex;
   margin: 0 auto;
+  display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
@@ -44,6 +43,180 @@ body {
   border-radius: 10px;
   border: 1px solid rgb(104, 84, 84);
 }
-.hamberger-manu{
+.hamburger-manu {
+  color: white;
+  display: none;
+}
+/* banner style here */
+.banner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.title-text {
+  font-size: 2.3rem;
   color: white;
 }
+.btn-1 {
+  background-color: orangered;
+  padding: 8px 15px;
+  border: 1px;
+  border-radius: 18px;
+  font-size: 1rem;
+  margin-right: 10px;
+  color: white;
+}
+.btn-2 {
+  padding: 8px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 18px;
+  font-size: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+.image-area {
+  position: relative;
+}
+.btn-3 {
+  position: absolute;
+  top: 260px;
+  right: 100px;
+  background-color: rgba(35, 32, 32, 0.621);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0 10px;
+  text-align: left;
+}
+.btn-4 {
+  position: absolute;
+  bottom: 25px;
+  right: 350px;
+  background-color: rgba(35, 32, 32, 0.621);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0 20px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.circal {
+  width: 20px;
+  height: 20px;
+  background-color: orangered;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.five {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.three {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+/* main style here */
+main {
+  background-color: black;
+}
+.change-habit {
+  width: 500px;
+  border: 1px solid black;
+  margin: 0 auto;
+  text-align: center;
+}
+.change-habit h2 {
+  color: white;
+}
+.change-habit p {
+  color: rgb(222, 198, 198);
+}
+.workout-img {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: end;
+}
+.img-box{
+  
+}
+.movement {
+  display: flex;
+  align-items: center;
+  width: 210px;
+  height: 280px;
+  color: white;
+  border: 1px solid red;
+}
+
+.run-esily-wraper {
+  background-color: rgba(35, 32, 32, 0.621);
+  width: 1140px;
+  height: 300px;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+.run-text h2 {
+  color: white;
+}
+.run-text p {
+  color: rgba(255, 255, 255, 0.178);
+}
+.btn-5 {
+  background-color: orangered;
+  padding: 8px 35px;
+  border: 1px;
+  border-radius: 18px;
+  font-size: 1rem;
+  margin-right: 10px;
+  color: white;
+}
+.running-img img {
+  width: 400px;
+  border-radius: 20px;
+}
+/* BMI secton style here */
+.bmi-section {
+  background-color: rgba(35, 32, 32, 0.621);
+  height: 350px;
+}
+.bmi-section-wraper {
+  width: 1200px;
+  height: 350px;
+  border: 1px solid yellow;
+  margin: 0 auto;
+  display: flex;
+
+  align-items: center;
+}
+.table-section {
+  height: 250px;
+  width: 40%;
+  margin-left: 20px;
+}
+.bmi-head {
+  color: white;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid rgba(114, 87, 87, 0.856);
+  color: rgba(255, 255, 255, 0.178);
+  padding: 10px 15px;
+}
+th {
+  color: white;
+}
+.bmi-description {
+  color: rgba(255, 255, 255, 0.178);
+}
+
