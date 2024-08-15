@@ -3,7 +3,8 @@
 
 body {
   font-family: "Inter", sans-serif;
-}
+  
+} 
 /* shared style is here */
 
 .primary-color {
@@ -191,8 +192,8 @@ img{
 /* BMI secton style here */
 .bmi-calculator{
   color: white;
-  width: 1200px;
-  text-align: center;
+  width: 500px;
+  /* text-align: center; */
   margin: 0 auto;
 
 }
@@ -234,9 +235,6 @@ th {
 th {
   color: white;
 }
-bmi-caculator{
-  color: wheat;
-}
 .bmi-description {
   color: rgba(255, 255, 255, 0.178);
 }
@@ -260,8 +258,9 @@ input[type="text"]{
 }
 .team-section{
   margin: 0 auto;
-  height: 200px;
-  width: 1200px;
+  width: 80%;
+  padding-bottom: 40px;
+  
 }
 .team-head{
   color: wheat;
@@ -270,4 +269,70 @@ input[type="text"]{
 .team-head p{
   color: rgba(255, 255, 255, 0.178); 
 }
+.team-member-area{
+  background-color: rgba(35, 32, 32, 0.621);
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 25px;
 
+}
+footer{
+  background-color: black;
+  
+}
+.footer-section{
+  background-color: rgba(35, 32, 32, 0.621);
+   height: 350px;
+  
+
+}
+.footer-wraper{
+  display: flex;
+  justify-content:space-evenly;
+  /* margin: 0 50px 0 20px; */
+  padding-top: 20px;
+ 
+}
+
+.logo-section h1{
+  color:orangered ;
+  font-style: italic;
+}
+.logo-section p{
+  color: rgba(255, 255, 255, 0.178);
+}
+.service-section{
+  
+  display: flex;
+  gap: 100px;
+  margin: 0 auto;
+
+}
+.get-started-1 h2{
+  color: rgba(255, 255, 255, 0.842);
+}
+.get-started-2 h2 {
+  color: white;
+}
+.get-started-1 p{
+  color: rgba(255, 255, 255, 0.178);
+}
+.get-started-2 p{
+  color: rgba(255, 255, 255, 0.178);
+}
+
+.hr{
+  width: 50%;
+  margin: 0 auto;
+  
+  
+}
+.color-hr{
+  border: 1px solid  rgba(35, 32, 32, 0.621);
+}
+.hr p{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.178);
+}
