@@ -54,6 +54,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.text-area p{
+  color:rgba(255, 255, 255, 0.178);
+}
 .title-text {
   font-size: 2.3rem;
   color: white;
@@ -147,8 +150,8 @@ img{
 .movement {
   display: flex;
   text-align: center;
-  width: 210px;
-  height: 280px;
+  width: 200px;
+  height: 260px;
   color: rgb(109, 107, 107);
   padding: 10px;
 }
@@ -186,6 +189,17 @@ img{
   border-radius: 20px;
 }
 /* BMI secton style here */
+.bmi-calculator{
+  color: white;
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.bmi-calculator p{
+  color:rgba(255, 255, 255, 0.178); 
+
+}
 .bmi-section {
   background-color: rgba(35, 32, 32, 0.621);
   
@@ -243,5 +257,17 @@ input[type="text"]{
   margin-right: 10px;
   color: white;
   margin: 20px 5px;
+}
+.team-section{
+  margin: 0 auto;
+  height: 200px;
+  width: 1200px;
+}
+.team-head{
+  color: wheat;
+  text-align: center;
+}
+.team-head p{
+  color: rgba(255, 255, 255, 0.178); 
 }
 

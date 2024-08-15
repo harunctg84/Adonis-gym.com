@@ -13,13 +13,6 @@
     flex-direction: column;
     margin-left: 40px;
   }
-  .card-500 {
-    left: 200px;
-    bottom:0px;
-  }
- .card-350{
-
-  }
   .workout-img{
    grid-template-columns: repeat(1, 1fr);
    padding-left: 150px;
@@ -32,7 +25,6 @@
   }
   .run-text{
     display: block;
-
     align-items: center;
   }
   .join-now-btn{
