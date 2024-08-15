@@ -11,16 +11,37 @@
   }
   .banner {
     flex-direction: column;
+    margin-left: 40px;
   }
-  .btn-3 {
+  .card-500 {
     left: 200px;
-    bottom: 100px;
+    bottom:0px;
+  }
+ .card-350{
+
   }
   .workout-img{
-    flex-direction: column;
+   grid-template-columns: repeat(1, 1fr);
+   padding-left: 150px;
+
   }
   .run-esily-wraper {
     flex-direction: column;
+    height: 600px;
+    padding-left: 30px;
   }
+  .run-text{
+    display: block;
+
+    align-items: center;
+  }
+  .join-now-btn{
+    padding: 8px 130px;
   
+  }
+  .bmi-section-wraper{
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 20px;
+  }
 }
+
