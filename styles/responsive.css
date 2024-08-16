@@ -33,16 +33,34 @@
   }
   .bmi-section-wraper{
     grid-template-columns: repeat(1,1fr);
-    margin-left: 20px;
+    margin-left: 70px;
+  }
+  
+  .team-member-area{
+    height: 1900px;
+  
+
+  }
+  .team-member-wraper{
+    grid-template-columns:repeat(1,1fr);
+    height: 1000px;
+  }
+  .indivisul-member-1 ,.indivisul-member-2,.indivisul-member-3,
+  .indivisul-member-4,.indivisul-member-5,
+  .indivisul-member-6{
+    margin-left: 40px;
+  }
+  .feedback-wraper{
+    flex-direction: column;
+    height: 1000px;
   }
   .footer-section{
-    height: 800px;
+    height: 700px;
     
   }
   .footer-wraper{
     flex-direction: column;
-    margin-left: 40%;
-   
+   margin-left: 50px;
   }
   
 }

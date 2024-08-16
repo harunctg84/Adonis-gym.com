@@ -51,6 +51,7 @@ body {
 /* banner style here */
 .banner {
   max-width: 1200px;
+  /* height: 600px; */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -192,7 +193,7 @@ img{
 /* BMI secton style here */
 .bmi-calculator{
   color: white;
-  width: 500px;
+  width: 40%;
   /* text-align: center; */
   margin: 0 auto;
 
@@ -206,11 +207,12 @@ img{
   
 }
 .bmi-section-wraper {
-  width: 1200px;
+  width: 90%;
   margin: 0 auto;
   display: grid;
   grid-template-columns:repeat(2,1fr);
   margin-top: 30px;
+  gap: 20px;
   
 }
 .table-section {
@@ -244,6 +246,7 @@ input[type="text"]{
   border-radius: 5px;
   border: none;
   margin: 5px;
+  padding-left: 10px;
   background-color: rgba(228, 222, 222, 0.178);
 }
 .calcutale-btn{
@@ -258,7 +261,6 @@ input[type="text"]{
 }
 .team-section{
   margin: 0 auto;
-  width: 80%;
   padding-bottom: 40px;
   
 }
@@ -271,16 +273,137 @@ input[type="text"]{
 }
 .team-member-area{
   background-color: rgba(35, 32, 32, 0.621);
-  width: 80%;
-  height: 600px;
+  width: 70%;
+ 
   margin: 0 auto;
   border-radius: 10px;
   margin-top: 25px;
+  padding: 10px;
 
 }
+
+.trainer{
+  margin-top: 250px;
+  margin-left: 10px;
+  line-height: 2px;
+}
+
+.trainer h3{
+ color: white;
+}
+
+.trainer p{
+  color: rgba(255, 255, 255, 0.363);
+}
+
+.indivisul-member-1{
+  width: 300px;
+  height: 300px;
+  background-image: url(/images/trainer1.png);
+  background-position:center;
+  background-size: cover;
+  border-radius: 14px;
+}
+
+.indivisul-member-2{
+  width: 300px;
+  height: 300px;
+  background-image: url(/images/trainer2.png);
+  background-position:center;
+  background-size: cover;
+  border-radius: 14px;
+
+
+}
+
+.indivisul-member-3{
+  width: 300px;
+  height: 300px;
+  background-image: url(/images/trainer3.png);
+  background-position:center;
+  background-size: cover;
+  border-radius: 14px;
+  
+}
+.indivisul-member-4{
+  width: 300px;
+  height: 300px;
+  background-image: url(/images/trainer4.png);
+  background-position:center;
+  background-size: cover;
+  border-radius: 14px;
+
+}
+.indivisul-member-5{
+  width: 300px;
+  height: 300px;
+  background-image: url(/images/trainer5.png);
+  background-position:center;
+  background-size: cover;
+  border-radius: 14px;
+}
+
+.indivisul-member-6{
+  width: 300px;
+  height: 300px;
+  background-image: url(/images/trainer6.png);
+  background-position:center;
+  background-size: cover;
+  border-radius: 14px;
+}
+
+.team-member-wraper{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+ 
+}
+/* unique section start here */
+.feedback-section{
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid rgb(24, 23, 23);
+  
+}
+
+.feedback-wraper{
+  display: flex;
+  justify-content:space-between;
+  margin: 20px;
+  padding-bottom: 10px;
+
+}
+.testimonial-img img{
+  border-radius: 10px;
+  margin-right: 100px;
+ 
+}
+.feedback-text{
+  color: rgba(255, 255, 255, 0.178);
+ 
+  
+}
+
+.feedback-text h3{
+  color: white;
+
+}
+.header-text{
+  color:orangered ;
+  font-size: 2.8rem;
+  text-align: center;
+  
+}
+
+/* unique section end here */
+
+
+/* footer section start here */
+
+
 footer{
   background-color: black;
-  height: 400px;
+  height: 700px;
   
 }
 .footer-section{
@@ -301,9 +424,11 @@ footer{
   color:orangered ;
   font-style: italic;
 }
+
 .logo-section p{
   color: rgba(255, 255, 255, 0.178);
 }
+
 .service-section{
   
   display: flex;
@@ -311,15 +436,19 @@ footer{
   margin: 0 auto;
 
 }
+
 .get-started-1 h2{
   color: rgba(255, 255, 255, 0.842);
 }
+
 .get-started-2 h2 {
   color: white;
 }
+
 .get-started-1 p{
   color: rgba(255, 255, 255, 0.178);
 }
+
 .get-started-2 p{
   color: rgba(255, 255, 255, 0.178);
 }
@@ -328,12 +457,17 @@ footer{
   width: 50%;
   margin: 0 auto;
   
-  
 }
+
 .color-hr{
   border: 1px solid  rgba(35, 32, 32, 0.621);
 }
+
 .hr p{
   text-align: center;
   color: rgba(255, 255, 255, 0.178);
+}
+
+.display{
+  display: none;
 }
