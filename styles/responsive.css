@@ -54,6 +54,9 @@
     flex-direction: column;
     height: 1000px;
   }
+  footer{
+    height: 750px;
+  }
   .footer-section{
     height: 700px;
     
